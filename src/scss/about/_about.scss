@@ -1,0 +1,19 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.about {
+
+  &__text{
+    text-align: justify;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 4rem;
+
+    @include m.tablet {
+      @include m.grid(2);
+      align-items: center;
+    }
+  }
+}

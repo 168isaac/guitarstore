@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GuitarStore</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+<!--Header-->
+<header class="header">
+    <div class="header__container">
+        <div class="header__navbar">
+            <a href="/">
+                <img class="header__logo" src="img/logo.png" alt="imagen logo">
+            </a>
+
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Inicio</a>
+                <a class="nav__link" href="nosotros.html">Nosotros</a>
+                <a class="nav__link" href="blog.html">Blog</a>
+                <a class="nav__link" href="tienda.html">Tienda</a>
+            </nav>
+        </div><!--.header-barra-->
+    </div>
+</header>
+
+<!--Main-->
+<main class="container">
+    <div class="product">
+
+        <img class="producto__imagen" src="img/guitarra_04.jpg" alt="imagen guitarra">
+
+        <div class="product__content">
+            <h3 class="product__name">Vai</h3>
+            <p class="product__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+                praesentium quam dolores eveniet</p>
+            <p class="product__price">$399</p>
+
+            <form class="product__form">
+                <label class="product__label">Cantidad:</label>
+                <select class="product__amount">
+                    <option value="">-- Seleccione --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <input
+                        type="submit"
+                        class="product__add--cart"
+                        value="Agregar al Carrito"
+                >
+            </form>
+        </div>
+    </div><!--./producto-->
+</main>
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer__container footer__content">
+        <nav class="footer__nav">
+            <a class="footer__link" href="index.html">Inicio</a>
+            <a class="footer__link" href="nosotros.html">Nosotros</a>
+            <a class="footer__link" href="blog.html">Blog</a>
+            <a class="footer__link" href="tienda.html">Tienda</a>
+        </nav>
+
+        <p class="footer__copyright">Todos los derechos reservados</p>
+    </div>
+</footer>
+
+</body>
+</html>
